@@ -7,6 +7,7 @@ public class MyFirstProgram {
 	}
 
 	public static void hello() {
-		System.out.println("Hello, world!");
+		Hello hello = new Hello("Hello, world");
+		System.out.println(hello);
 	}
 }
